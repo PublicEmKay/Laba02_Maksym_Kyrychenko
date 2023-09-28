@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Імпорт бібліотек
 import json
 import random
