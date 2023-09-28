@@ -1,3 +1,4 @@
+# Імпорт бібліотек
 import json
 import random
 
