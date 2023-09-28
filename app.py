@@ -1,14 +1,13 @@
-# -*- coding: utf-8 -*-
-# Імпорт бібліотек
+# Importing libraries
 import json
 import random
 
 def lambda_handler(event, context):
-    # Генеруємо випадкове число від 1 до 6
+    # Generate a random number from 1 to 6
     random_number = random.randint(1, 6)
     
-    # Повертаємо результат у вигляді об'єкта JSON
+    # Return the result as a JSON object
     return {
         'statusCode': 200,
-        'body': f'Випадкове число: {random_number}'
+        'body': f'Random number: {random_number}'
     }
