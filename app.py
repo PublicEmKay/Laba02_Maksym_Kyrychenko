@@ -9,5 +9,5 @@ def lambda_handler(event, context):
     # Повертаємо результат у вигляді об'єкта JSON
     return {
         'statusCode': 200,
-        'body': f'<p>Випадкове число: {random_number}</p>'
+        'body': f'Випадкове число: {random_number}'
     }
